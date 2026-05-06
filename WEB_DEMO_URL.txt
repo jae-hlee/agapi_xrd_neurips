@@ -1,0 +1,9 @@
+# Anonymous web demo for AGAPI-XRD (NeurIPS 2026 review)
+#
+# Reviewers should set this URL as the AGAPI_XRD_ENDPOINT environment variable
+# before running the pipeline scripts.
+
+ANONYMOUS_REVIEW_URL=https://anonymous.4open.science/r/agapi_xrd_neurips-58B8/
+
+# The hosted REST endpoint backing the live demo (used by pipeline/client.py)
+AGAPI_XRD_ENDPOINT=https://anonymous.4open.science/r/agapi_xrd_neurips-58B8/api
