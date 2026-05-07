@@ -1,10 +1,6 @@
 # AGAPI-XRD
 
-Anonymized companion code for the NeurIPS 2026 Main Track submission *AGAPI-XRD: A Hybrid Generative-Pattern-Matching-Rietveld Pipeline and Benchmark for Automated X-ray Diffraction Analysis*.
-
-> **Anonymity.** Author names, affiliations, internal hostnames, and the public deployment URL have been stripped from this snapshot. The endpoint URL is configured via the `AGAPI_XRD_ENDPOINT` environment variable so reviewers can point at the anonymous web demo (URL listed in `WEB_DEMO_URL.txt`) or a local mirror.
-
-## What this repo contains
+## Introduction
 
 The end-to-end XRD-to-structure pipeline benchmarked in the paper:
 
@@ -77,7 +73,7 @@ After running the full benchmark you should see (within run-to-run noise):
 - **RRUFF**: 96.7% combined coverage; 84.1% pattern-matching coverage; 83-85% DiffractGPT coverage; lattice MAE 0.73-0.81 Å (pattern matching), 1.72-2.19 Å (DiffractGPT); skill scores +0.51 to +0.55 for pattern-matched structures.
 - **Alexandria** (6 workflows): 94.9-96.2% combined coverage; lattice MAE 0.72-0.77 Å for a, b and 1.22-1.28 Å for c; cross-workflow ranges 0.024 / 0.040 / 0.062 Å for a / b / c.
 
-## How the anonymity works
+## Specifics
 
 The pipeline calls a hosted REST endpoint (Stage 1 cosine matching, Stage 2 DiffractGPT, Stage 3 ALIGNN-FF, Stage 4 Rietveld refinement). The endpoint URL is configured exclusively via the `AGAPI_XRD_ENDPOINT` environment variable, never hard-coded; `WEB_DEMO_URL.txt` carries the anonymous mirror to use during review.
 
