@@ -4,7 +4,7 @@
 
 The end-to-end XRD-to-structure pipeline benchmarked in the paper:
 
-1. **Stage 1**: cosine-similarity pattern matching against JARVIS-DFT (~76,000 entries) and COD (~400,000 entries).
+1. **Stage 1**: cosine-similarity pattern matching against JARVIS-DFT (approximately 76,000 entries) and COD (approximately 400,000 entries).
 2. **Stage 2**: generative structure prediction via DiffractGPT (Mistral-7B fine-tune from prior work).
 3. **Stage 3**: optional ALIGNN-FF structural relaxation.
 4. **Stage 4**: automated Rietveld refinement (GSAS-II or BGMN) with sequential parameter release.
