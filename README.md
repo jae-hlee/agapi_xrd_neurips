@@ -60,12 +60,6 @@ done
 python eval/figures.py --results_root results
 ```
 
-Wall-clock budget on the reference hardware (16-core Xeon + 1x A100-40GB):
-
-- RRUFF benchmark: ~2 CPU-hours + ~30 GPU-minutes
-- Each Alexandria workflow: ~50-120 CPU-hours + ~8-12 GPU-hours
-- Total Alexandria across 6 workflows: ~500 CPU-hours + ~60 GPU-hours
-
 ## Reproduction
 
 After running the full benchmark you should see (within run-to-run noise):
