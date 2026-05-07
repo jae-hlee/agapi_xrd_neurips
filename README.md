@@ -95,8 +95,4 @@ The recommended reviewer workflow is to access the live demo through `https://an
 
 ## License
 
-MIT (anonymized). The camera-ready release will restore the copyright holder.
-
-## Contact
-
-Anonymous for review. Camera-ready will list authors and a maintenance contact.
+MIT, see LICENSE.
