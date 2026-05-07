@@ -1,4 +1,4 @@
-# AGAPI-XRD (anonymous code release)
+# AGAPI-XRD
 
 Anonymized companion code for the NeurIPS 2026 Main Track submission *AGAPI-XRD: A Hybrid Generative-Pattern-Matching-Rietveld Pipeline and Benchmark for Automated X-ray Diffraction Analysis*.
 
