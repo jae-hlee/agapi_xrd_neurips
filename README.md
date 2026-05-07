@@ -66,7 +66,7 @@ Wall-clock budget on the reference hardware (16-core Xeon + 1x A100-40GB):
 - Each Alexandria workflow: ~50-120 CPU-hours + ~8-12 GPU-hours
 - Total Alexandria across 6 workflows: ~500 CPU-hours + ~60 GPU-hours
 
-## Reproduction sanity check
+## Reproduction
 
 After running the full benchmark you should see (within run-to-run noise):
 
